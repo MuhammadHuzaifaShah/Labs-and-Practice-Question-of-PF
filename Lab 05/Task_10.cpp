@@ -16,6 +16,11 @@ int main()
     int ways = 0;
     int prev1 = 1;
     int prev2 = 1;
+    if(n == 0 || n == 1)
+    {
+        cout << "Total distinct ways: 1" << endl;
+        return 0;
+    }
 
     for (int i = 2; i <= n; i++)
     {
