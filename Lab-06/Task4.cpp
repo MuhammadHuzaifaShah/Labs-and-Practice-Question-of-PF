@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-
+/*Write a program that asks for a number of rows and prints a triangle where each row contains the
+Fibonacci sequence up to that point.*/
 int main() {
     int rows;
     cout << "Enter number of rows: ";
